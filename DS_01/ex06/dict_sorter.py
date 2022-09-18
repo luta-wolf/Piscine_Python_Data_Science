@@ -26,26 +26,13 @@ def dataset():
 	]
 	return list_of_tuples
 
-
 def dict_sorter():
 	data = dataset()
-	my_dict = dict(data)
-	my_dict2 = {}							# создание словаря
-	for key, value in my_dict.items():
-		my_dict2[key]= int(value)
-	print(my_dict2)
-
-	sorted_dict = {}
-	sorted_keys = sorted(my_dict2, key=my_dict2.get)	# сортировака по значениям
-	# print(my_dict)
-	for w in sorted_keys:
-		sorted_dict[w] = my_dict2[w]
-
-	# print(sorted_dict)
-
-	for key, value in sorted_dict.items():
-		print(f"{key} : {value}")
-
+	sorted_name = sorted(data, key=lambda x : x[0])
+	sorted_digital = sorted(sorted_name, key=lambda x : int(x[1]), reverse=True)
+	my_dict =dict(sorted_digital)
+	for key in my_dict:
+		print(key)
 
 
 def main():
