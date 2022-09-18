@@ -1,3 +1,5 @@
-ex00
-Запускаем hh.sh с параметром "data scientist"
-**sh hh.sh "data scientist"**
+### ex00
+Запускаем hh.sh с параметром "data scientist" для нашего задания и любой профессией для парсинга остального
+```
+sh hh.sh "data scientist"
+```

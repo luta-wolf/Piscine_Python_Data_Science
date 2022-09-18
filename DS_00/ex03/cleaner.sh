@@ -1,35 +1,28 @@
 #!/bin/sh
 
-FILE=../ex02/hh_sorted.csv
+INPUT_FILE="../ex02/hh_sorted.csv"
+OUTPUT_FILE="hh_positions.csv"
 
-echo '"id","created_at","name","has_test","alternate_url"' > hh_positions.csv
+# pass headers
+cat $INPUT_FILE \
+  | head -n 1 \
+  > $OUTPUT_FILE
 
-cat $FILE | tail -n +2 "$FILE" | \
-    awk \
-    'BEGIN{
-      FS=OFS="\",";
-      Regexes[0] = "[Jj]unior\\+?/?";
-      Regexes[2] = "[Jj]unior[+]\\+?/?";
-      Regexes[4] = "[Mm]iddle\\+?/?";
-      Regexes[6] = "[Ss]enior";
-    }
+tail -n +2 $INPUT_FILE | \
+awk 'BEGIN { FS = OFS = "," }
     {
-      result = "";
-      for (i = 0; i < length(Regexes); ++i)
-      {
-        match($3, Regexes[i]);
-        if (RLENGTH > 0) {
-          first_char = substr($3, RSTART, 1);
-          result = result toupper(first_char) substr($3, RSTART + 1, RLENGTH - 1);
-        }
-      }
-      if (length(result) == 0) {
-        $3 = "\"-";
-      }
-      else {
-        $3 = "\"" result;
-      }
-      
-      print;
+        STR = ""
+        if (index(tolower($3), "junior"))
+            STR = STR"Junior/"
+        if (index(tolower($3), "middle"))
+            STR = STR"Middle/"
+        if (index(tolower($3), "senior"))
+            STR = STR"Senior"
+        if (STR == "")
+            STR = "-"
+        gsub(/[\/ ]*$/, "", STR)
+
+        $3 = "\""STR"\""
+        print
     }' \
-    >> hh_positions.csv
+    >> $OUTPUT_FILE
