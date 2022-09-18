@@ -12,7 +12,9 @@
 - API hh.ru [часть 1](https://habr.com/ru/company/hh/blog/303168/), [часть 2](https://github.com/hhru/api/blob/master/README.md#%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B) и  [часть 3](https://github.com/hhru/api/blob/master/docs/general.md)
 - Linux инструмент [JQ](https://russianblogs.com/article/9830458316/)
 
-## Day 00
+В этом дне мы парсим hh.ru. Сырые данне складываем в JSON файл и затем преобразовываем его в CSV файл, сортируем, заменяем строки и разделяем/объединяем по файлам.
+
+## Day 01
 ### Введение в Python: синтаксис и семантика
 
 Резюме: Сегодня мы поможем вам приобрести базовые знания о синтаксисе и семантикеиз Питона.
