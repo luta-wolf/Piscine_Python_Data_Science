@@ -1,90 +1,67 @@
 {
   "items": [
     {
-      "id": "69182443",
-      "premium": true,
-      "name": "Data Scientist (команда Поиска)",
-      "department": {
-        "id": "hh-1455-ds",
-        "name": "HeadHunter::Analytics/Data Science"
-      },
+      "id": "69436420",
+      "premium": false,
+      "name": "Продавец в Levi's (ТРЦ Родник)",
+      "department": null,
       "has_test": false,
-      "response_letter_required": true,
+      "response_letter_required": false,
       "area": {
-        "id": "1",
-        "name": "Москва",
-        "url": "https://api.hh.ru/areas/1"
+        "id": "104",
+        "name": "Челябинск",
+        "url": "https://api.hh.ru/areas/104"
       },
       "salary": {
-        "from": 350000,
-        "to": null,
+        "from": 40000,
+        "to": 50000,
         "currency": "RUR",
-        "gross": true
+        "gross": false
       },
       "type": {
         "id": "open",
         "name": "Открытая"
       },
       "address": {
-        "city": "Москва",
-        "street": "улица Годовикова",
-        "building": "9с10",
+        "city": "Челябинск",
+        "street": "улица Труда",
+        "building": "203",
         "description": null,
-        "lat": 55.809343,
-        "lng": 37.628505,
-        "raw": "Москва, улица Годовикова, 9с10",
-        "metro": {
-          "station_name": "Алексеевская",
-          "line_name": "Калужско-Рижская",
-          "station_id": "6.8",
-          "line_id": "6",
-          "lat": 55.807794,
-          "lng": 37.638699
-        },
-        "metro_stations": [
-          {
-            "station_name": "Алексеевская",
-            "line_name": "Калужско-Рижская",
-            "station_id": "6.8",
-            "line_id": "6",
-            "lat": 55.807794,
-            "lng": 37.638699
-          }
-        ],
-        "id": "525394"
+        "lat": 55.171051,
+        "lng": 61.355976,
+        "raw": "Челябинск, улица Труда, 203",
+        "metro": null,
+        "metro_stations": [],
+        "id": "4410509"
       },
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-14T13:17:54+0300",
-      "created_at": "2022-09-14T13:17:54+0300",
+      "published_at": "2022-09-18T08:58:19+0300",
+      "created_at": "2022-09-18T08:58:19+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69182443",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69436420",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69182443?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69182443/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69182443",
+      "url": "https://api.hh.ru/vacancies/69436420?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69436420/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69436420",
       "relations": [],
       "employer": {
-        "id": "1455",
-        "name": "HeadHunter",
-        "url": "https://api.hh.ru/employers/1455",
-        "alternate_url": "https://hh.ru/employer/1455",
-        "logo_urls": {
-          "original": "https://hhcdn.ru/employer-logo-original/907140.png",
-          "240": "https://hhcdn.ru/employer-logo/4069248.png",
-          "90": "https://hhcdn.ru/employer-logo/4069247.png"
-        },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1455",
+        "id": "898175",
+        "name": "Лемарон",
+        "url": "https://api.hh.ru/employers/898175",
+        "alternate_url": "https://hh.ru/employer/898175",
+        "logo_urls": null,
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=898175",
         "trusted": true
       },
       "snippet": {
-        "requirement": "Опыт реализации и применения моделей машинного обучения в продакшн. Понимание основных методов и алгоритмов Machine Learning. Знание принципов работы нейросетевых...",
-        "responsibility": "Развитие моделей поискового ранжирования и рекомендательных систем. Тюнинг существующих моделей, feature engineering, а также построение новых решений с нуля. "
+        "requirement": "Опыт работы не обязателен. Мы всему научим! Встречать покупателя с улыбкой и готовностью подобрать идеальные джинсы. Поддерживать порядок в магазине. ",
+        "responsibility": "Общаться с покупателем и подбирать им необходимую одежду. Обслуживать покупателей на кассе. Принимать участие в приеме товара. Работать с товаром..."
       },
       "contacts": null,
       "schedule": {
-        "id": "fullDay",
-        "name": "Полный день"
+        "id": "shift",
+        "name": "Сменный график"
       },
       "working_days": [],
       "working_time_intervals": [],
@@ -92,131 +69,9 @@
       "accept_temporary": false
     },
     {
-      "id": "69647954",
+      "id": "69593460",
       "premium": false,
-      "name": "Аналитик данных / Data Analyst",
-      "department": null,
-      "has_test": true,
-      "response_letter_required": false,
-      "area": {
-        "id": "1",
-        "name": "Москва",
-        "url": "https://api.hh.ru/areas/1"
-      },
-      "salary": {
-        "from": 60000,
-        "to": 90000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "type": {
-        "id": "open",
-        "name": "Открытая"
-      },
-      "address": null,
-      "response_url": null,
-      "sort_point_distance": null,
-      "published_at": "2022-09-15T09:47:19+0300",
-      "created_at": "2022-09-15T09:47:19+0300",
-      "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69647954",
-      "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69647954?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69647954/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69647954",
-      "relations": [],
-      "employer": {
-        "id": "4266785",
-        "name": "Оптимакрос",
-        "url": "https://api.hh.ru/employers/4266785",
-        "alternate_url": "https://hh.ru/employer/4266785",
-        "logo_urls": {
-          "original": "https://hhcdn.ru/employer-logo-original/984554.jpeg",
-          "240": "https://hhcdn.ru/employer-logo/5559037.jpeg",
-          "90": "https://hhcdn.ru/employer-logo/5559036.jpeg"
-        },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4266785",
-        "trusted": true
-      },
-      "snippet": {
-        "requirement": "Техническое образование (IT), опыт работы с разработчиками. Опыт решения задач <highlighttext>Data</highlighttext> Science. Знания и опыт в области распределённого хранения данных...",
-        "responsibility": "Развитие направления анализа данных в нашей компании, развитие продукта Optimacros в сфере статистического прогнозирования. Взаимодействие с клиентами: участие в защите..."
-      },
-      "contacts": null,
-      "schedule": {
-        "id": "remote",
-        "name": "Удаленная работа"
-      },
-      "working_days": [],
-      "working_time_intervals": [],
-      "working_time_modes": [],
-      "accept_temporary": false
-    },
-    {
-      "id": "69749703",
-      "premium": false,
-      "name": "Data Analyst (middle/senior)",
-      "department": null,
-      "has_test": false,
-      "response_letter_required": false,
-      "area": {
-        "id": "2758",
-        "name": "Тбилиси",
-        "url": "https://api.hh.ru/areas/2758"
-      },
-      "salary": {
-        "from": 2500,
-        "to": 3500,
-        "currency": "USD",
-        "gross": false
-      },
-      "type": {
-        "id": "open",
-        "name": "Открытая"
-      },
-      "address": null,
-      "response_url": null,
-      "sort_point_distance": null,
-      "published_at": "2022-09-16T10:32:10+0300",
-      "created_at": "2022-09-16T10:32:10+0300",
-      "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69749703",
-      "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69749703?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69749703/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69749703",
-      "relations": [],
-      "employer": {
-        "id": "3463642",
-        "name": "Fundraise Up",
-        "url": "https://api.hh.ru/employers/3463642",
-        "alternate_url": "https://hh.ru/employer/3463642",
-        "logo_urls": {
-          "90": "https://hhcdn.ru/employer-logo/3261636.png",
-          "240": "https://hhcdn.ru/employer-logo/3261637.png",
-          "original": "https://hhcdn.ru/employer-logo-original/705130.png"
-        },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3463642",
-        "trusted": true
-      },
-      "snippet": {
-        "requirement": "Формальный список того, что нужно делать. Знания в области математической статистики и теории вероятностей. Знание Python (numpy, pandas, matplotlib, sklearn). ",
-        "responsibility": "Команда. В компании работает 100 человек. В офисе в Нью-Йорке маркетинг, продажи, онбординг и саппорт. Удаленно мы принимаем продуктовые..."
-      },
-      "contacts": null,
-      "schedule": {
-        "id": "remote",
-        "name": "Удаленная работа"
-      },
-      "working_days": [],
-      "working_time_intervals": [],
-      "working_time_modes": [],
-      "accept_temporary": false
-    },
-    {
-      "id": "69810054",
-      "premium": false,
-      "name": "Data Analyst (ML)",
+      "name": "Менеджер по продажам",
       "department": null,
       "has_test": false,
       "response_letter_required": false,
@@ -238,31 +93,31 @@
       "address": null,
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-14T14:05:24+0300",
-      "created_at": "2022-09-14T14:05:24+0300",
+      "published_at": "2022-09-07T19:28:51+0300",
+      "created_at": "2022-09-07T19:28:51+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69810054",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69593460",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69810054?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69810054/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69810054",
+      "url": "https://api.hh.ru/vacancies/69593460?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69593460/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69593460",
       "relations": [],
       "employer": {
-        "id": "4759060",
-        "name": "HR Prime",
-        "url": "https://api.hh.ru/employers/4759060",
-        "alternate_url": "https://hh.ru/employer/4759060",
+        "id": "2489728",
+        "name": "Банкирро",
+        "url": "https://api.hh.ru/employers/2489728",
+        "alternate_url": "https://hh.ru/employer/2489728",
         "logo_urls": {
-          "90": "https://hhcdn.ru/employer-logo/3610683.jpeg",
-          "240": "https://hhcdn.ru/employer-logo/3610684.jpeg",
-          "original": "https://hhcdn.ru/employer-logo-original/792449.jpg"
+          "240": "https://hhcdn.ru/employer-logo/3424738.jpeg",
+          "90": "https://hhcdn.ru/employer-logo/3424737.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/745944.jpg"
         },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4759060",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2489728",
         "trusted": true
       },
       "snippet": {
-        "requirement": "Опыт на должности именно <highlighttext>Data</highlighttext> Analyst минимум 2 года. Отличное знание Python (Pandas, NumPy, SciPy). SQL для анализа данных. ",
-        "responsibility": "Анализ данных, поиск в них паттернов и аномалии. А/Б тестирование. Создание и поддержание регулярных аналитических расчетов. Помощь специалистам по..."
+        "requirement": "Продажи для тебя - это драйв, ты нацелен на результат, берешь на себя ответственность. Опыт в продажах от 1 года. ",
+        "responsibility": "Консультация клиентов по продукту. Заключение договоров. Передача клиентов в отдел юридического сопровождения. Оперативное решение всех возникающих вопросов с клиентами, координация..."
       },
       "contacts": null,
       "schedule": {
@@ -275,9 +130,9 @@
       "accept_temporary": false
     },
     {
-      "id": "69724262",
+      "id": "69820056",
       "premium": false,
-      "name": "Data scientist",
+      "name": "Менеджер продаж",
       "department": null,
       "has_test": false,
       "response_letter_required": false,
@@ -287,8 +142,69 @@
         "url": "https://api.hh.ru/areas/1"
       },
       "salary": {
-        "from": 150000,
-        "to": 200000,
+        "from": null,
+        "to": 350000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2022-09-14T16:52:17+0300",
+      "created_at": "2022-09-14T16:52:17+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69820056",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/69820056?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69820056/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69820056",
+      "relations": [],
+      "employer": {
+        "id": "2489728",
+        "name": "Банкирро",
+        "url": "https://api.hh.ru/employers/2489728",
+        "alternate_url": "https://hh.ru/employer/2489728",
+        "logo_urls": {
+          "240": "https://hhcdn.ru/employer-logo/3424738.jpeg",
+          "90": "https://hhcdn.ru/employer-logo/3424737.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/745944.jpg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2489728",
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Продажи для тебя - это драйв, ты нацелен на результат, берешь на себя ответственность. Опыт в продажах от 1 года. ",
+        "responsibility": "Консультация клиентов по продукту. Заключение договоров. Передача клиентов в отдел юридического сопровождения. Оперативное решение всех возникающих вопросов с клиентами, координация..."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "fullDay",
+        "name": "Полный день"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false
+    },
+    {
+      "id": "69761814",
+      "premium": false,
+      "name": "Продавец в ТЦ Невский (Стокманн)",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "2",
+        "name": "Санкт-Петербург",
+        "url": "https://api.hh.ru/areas/2"
+      },
+      "salary": {
+        "from": 60000,
+        "to": 100000,
         "currency": "RUR",
         "gross": false
       },
@@ -297,49 +213,49 @@
         "name": "Открытая"
       },
       "address": {
-        "city": "Москва",
-        "street": "Походный проезд",
-        "building": "14",
+        "city": "Санкт-Петербург",
+        "street": "Невский проспект",
+        "building": "114-116",
         "description": null,
-        "lat": 55.838091,
-        "lng": 37.417167,
-        "raw": "Москва, Походный проезд, 14",
+        "lat": 59.931941,
+        "lng": 30.359149,
+        "raw": "Санкт-Петербург, Невский проспект, 114-116",
         "metro": null,
         "metro_stations": [],
-        "id": "953346"
+        "id": "6352919"
       },
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-15T15:51:54+0300",
-      "created_at": "2022-09-15T15:51:54+0300",
+      "published_at": "2022-09-16T13:31:15+0300",
+      "created_at": "2022-09-16T13:31:15+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69724262",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69761814",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69724262?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69724262/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69724262",
+      "url": "https://api.hh.ru/vacancies/69761814?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69761814/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69761814",
       "relations": [],
       "employer": {
-        "id": "606",
-        "name": "Астор",
-        "url": "https://api.hh.ru/employers/606",
-        "alternate_url": "https://hh.ru/employer/606",
+        "id": "1910225",
+        "name": "Aurum Queen",
+        "url": "https://api.hh.ru/employers/1910225",
+        "alternate_url": "https://hh.ru/employer/1910225",
         "logo_urls": {
-          "original": "https://hhcdn.ru/employer-logo-original/895922.png",
-          "90": "https://hhcdn.ru/employer-logo/4024375.png",
-          "240": "https://hhcdn.ru/employer-logo/4024376.png"
+          "original": "https://hhcdn.ru/employer-logo-original/709384.png",
+          "90": "https://hhcdn.ru/employer-logo/3278652.png",
+          "240": "https://hhcdn.ru/employer-logo/3278653.png"
         },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=606",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1910225",
         "trusted": true
       },
       "snippet": {
-        "requirement": "Опыт работы на позиции <highlighttext>data</highlighttext> scientist от 2ух лет. Знание основных алгоритмов и метрик машинного обучения. Ключевые навыки: Python...",
-        "responsibility": "Работа в команде по созданию модуля <highlighttext>Data</highlighttext> Science & AI, отвечающего за обработку данных, консолидированных в хранилище, и интеллектуальное обеспечение различных..."
+        "requirement": "Любовь к продажам. Желание много зарабатывать. Умение найти общий язык с любым клиентом. Опыт работы в Lux-сегменте.",
+        "responsibility": null
       },
       "contacts": null,
       "schedule": {
-        "id": "remote",
-        "name": "Удаленная работа"
+        "id": "fullDay",
+        "name": "Полный день"
       },
       "working_days": [],
       "working_time_intervals": [],
@@ -347,9 +263,97 @@
       "accept_temporary": false
     },
     {
-      "id": "69360960",
+      "id": "69662230",
       "premium": false,
-      "name": "Аналитик данных / Data Analyst (управленческая отчетность)",
+      "name": "Менеджер по привлечению клиентов",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "88",
+        "name": "Казань",
+        "url": "https://api.hh.ru/areas/88"
+      },
+      "salary": {
+        "from": 200000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": null,
+        "street": null,
+        "building": null,
+        "description": null,
+        "lat": null,
+        "lng": null,
+        "raw": null,
+        "metro": {
+          "station_name": "Аметьево",
+          "line_name": "Центральная",
+          "station_id": "49.275",
+          "line_id": "49",
+          "lat": 55.765346,
+          "lng": 49.165083
+        },
+        "metro_stations": [
+          {
+            "station_name": "Аметьево",
+            "line_name": "Центральная",
+            "station_id": "49.275",
+            "line_id": "49",
+            "lat": 55.765346,
+            "lng": 49.165083
+          }
+        ],
+        "id": "1097530"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2022-09-09T14:03:04+0300",
+      "created_at": "2022-09-09T14:03:04+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69662230",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/69662230?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69662230/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69662230",
+      "relations": [],
+      "employer": {
+        "id": "1060821",
+        "name": "Рост Развитие Решение",
+        "url": "https://api.hh.ru/employers/1060821",
+        "alternate_url": "https://hh.ru/employer/1060821",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/874868.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/874869.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/85446.jpg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1060821",
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Эффективность в переговорах с клиентами. Опыт активных продаж от 2-х лет. Высокий уровень мотивации к успеху. Позитивный настрой, гибкость...",
+        "responsibility": "Привлечение новых клиентов. Работа с базой потенциальных клиентов. Переговоры при встречах. Допродажи текущим клиентам."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "fullDay",
+        "name": "Полный день"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false
+    },
+    {
+      "id": "69568575",
+      "premium": false,
+      "name": "Менеджер по продажам и работе с клиентами",
       "department": null,
       "has_test": false,
       "response_letter_required": false,
@@ -359,161 +363,11 @@
         "url": "https://api.hh.ru/areas/1"
       },
       "salary": {
-        "from": 150000,
-        "to": 300000,
+        "from": null,
+        "to": 350000,
         "currency": "RUR",
-        "gross": true
+        "gross": false
       },
-      "type": {
-        "id": "open",
-        "name": "Открытая"
-      },
-      "address": {
-        "city": "Москва",
-        "street": "Большая Тульская улица",
-        "building": "44",
-        "description": null,
-        "lat": 55.705285,
-        "lng": 37.620779,
-        "raw": "Москва, Большая Тульская улица, 44",
-        "metro": {
-          "station_name": "Тульская",
-          "line_name": "Серпуховско-Тимирязевская",
-          "station_id": "9.142",
-          "line_id": "9",
-          "lat": 55.70961,
-          "lng": 37.622569
-        },
-        "metro_stations": [
-          {
-            "station_name": "Тульская",
-            "line_name": "Серпуховско-Тимирязевская",
-            "station_id": "9.142",
-            "line_id": "9",
-            "lat": 55.70961,
-            "lng": 37.622569
-          }
-        ],
-        "id": "5686251"
-      },
-      "response_url": null,
-      "sort_point_distance": null,
-      "published_at": "2022-09-16T08:27:37+0300",
-      "created_at": "2022-09-16T08:27:37+0300",
-      "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69360960",
-      "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69360960?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69360960/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69360960",
-      "relations": [],
-      "employer": {
-        "id": "2464267",
-        "name": "Carely",
-        "url": "https://api.hh.ru/employers/2464267",
-        "alternate_url": "https://hh.ru/employer/2464267",
-        "logo_urls": {
-          "original": "https://hhcdn.ru/employer-logo-original/808379.jpg",
-          "240": "https://hhcdn.ru/employer-logo/3674404.jpeg",
-          "90": "https://hhcdn.ru/employer-logo/3674403.jpeg"
-        },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2464267",
-        "trusted": true
-      },
-      "snippet": {
-        "requirement": "...бы в одном из других популярных BI инструментов ( Tableau, Google <highlighttext>Data</highlighttext> Studio и т.д.) и быть готовым освоить Power...",
-        "responsibility": "Создание и совершенствование, совместно с бизнес-командой, перечня основных операционных показателей и методологии их расчета. Создание витрин, дэшбордов и регулярных..."
-      },
-      "contacts": null,
-      "schedule": {
-        "id": "remote",
-        "name": "Удаленная работа"
-      },
-      "working_days": [],
-      "working_time_intervals": [],
-      "working_time_modes": [],
-      "accept_temporary": false
-    },
-    {
-      "id": "69876645",
-      "premium": false,
-      "name": "Data engineer",
-      "department": null,
-      "has_test": false,
-      "response_letter_required": false,
-      "area": {
-        "id": "160",
-        "name": "Алматы",
-        "url": "https://api.hh.ru/areas/160"
-      },
-      "salary": null,
-      "type": {
-        "id": "open",
-        "name": "Открытая"
-      },
-      "address": {
-        "city": "Алматы",
-        "street": "проспект Гагарина",
-        "building": "124",
-        "description": null,
-        "lat": 43.2382143376,
-        "lng": 76.8955427176,
-        "raw": "Алматы, проспект Гагарина, 124",
-        "metro": null,
-        "metro_stations": [],
-        "id": "1092236"
-      },
-      "response_url": null,
-      "sort_point_distance": null,
-      "published_at": "2022-09-16T07:01:03+0300",
-      "created_at": "2022-09-16T07:01:03+0300",
-      "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69876645",
-      "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69876645?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69876645/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69876645",
-      "relations": [],
-      "employer": {
-        "id": "1392137",
-        "name": "AVIATA.KZ",
-        "url": "https://api.hh.ru/employers/1392137",
-        "alternate_url": "https://hh.ru/employer/1392137",
-        "logo_urls": {
-          "original": "https://hhcdn.ru/employer-logo-original/259280.png",
-          "90": "https://hhcdn.ru/employer-logo/1479650.png",
-          "240": "https://hhcdn.ru/employer-logo/1479651.png"
-        },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1392137",
-        "trusted": true
-      },
-      "snippet": {
-        "requirement": "Проектирование Баз Данных. Опыт работы в ETL инструментами, Git, Docker. Будет плюсом - знание технологий Hadoop, Spark, Greenplum, <highlighttext>Data</highlighttext> Lake.",
-        "responsibility": "Построение аналитической системы. Построение единого хранилища данных и работы с имеющимся функционалом."
-      },
-      "contacts": null,
-      "schedule": {
-        "id": "fullDay",
-        "name": "Полный день"
-      },
-      "working_days": [],
-      "working_time_intervals": [],
-      "working_time_modes": [],
-      "accept_temporary": false
-    },
-    {
-      "id": "69861199",
-      "premium": true,
-      "name": "Junior Backoffice Analyst",
-      "department": null,
-      "has_test": false,
-      "response_letter_required": false,
-      "area": {
-        "id": "1",
-        "name": "Москва",
-        "url": "https://api.hh.ru/areas/1"
-      },
-      "salary": null,
       "type": {
         "id": "open",
         "name": "Открытая"
@@ -521,27 +375,31 @@
       "address": null,
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-15T15:15:38+0300",
-      "created_at": "2022-09-15T15:15:38+0300",
+      "published_at": "2022-09-07T12:09:01+0300",
+      "created_at": "2022-09-07T12:09:01+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69861199",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69568575",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69861199?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69861199/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69861199",
+      "url": "https://api.hh.ru/vacancies/69568575?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69568575/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69568575",
       "relations": [],
       "employer": {
-        "id": "6104988",
-        "name": "SMPS Marketing ltd",
-        "url": "https://api.hh.ru/employers/6104988",
-        "alternate_url": "https://hh.ru/employer/6104988",
-        "logo_urls": null,
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6104988",
+        "id": "2489728",
+        "name": "Банкирро",
+        "url": "https://api.hh.ru/employers/2489728",
+        "alternate_url": "https://hh.ru/employer/2489728",
+        "logo_urls": {
+          "240": "https://hhcdn.ru/employer-logo/3424738.jpeg",
+          "90": "https://hhcdn.ru/employer-logo/3424737.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/745944.jpg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2489728",
         "trusted": true
       },
       "snippet": {
-        "requirement": "Microsoft 365 skills, particularly Excel on a high level. - Tableau and Python (big advantage). - Fluent English- big advantage. - Russian. - ",
-        "responsibility": "Analyzing commercial <highlighttext>data</highlighttext> such as budgets, sales results and forecasts. - Calculation of weekly spending with suppliers and clients. - "
+        "requirement": "Продажи для тебя - это драйв, ты нацелен на результат, берешь на себя ответственность. Опыт в продажах от 1 года. ",
+        "responsibility": "Консультация клиентов по продукту. Заключение договоров. Передача клиентов в отдел юридического сопровождения. Оперативное решение всех возникающих вопросов с клиентами, координация..."
       },
       "contacts": null,
       "schedule": {
@@ -554,9 +412,126 @@
       "accept_temporary": false
     },
     {
-      "id": "67100424",
+      "id": "69670231",
       "premium": false,
-      "name": "Data-аналитик",
+      "name": "Менеджер активных продаж (Фабрика окон)",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "88",
+        "name": "Казань",
+        "url": "https://api.hh.ru/areas/88"
+      },
+      "salary": {
+        "from": 100000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2022-09-09T16:42:51+0300",
+      "created_at": "2022-09-09T16:42:51+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69670231",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/69670231?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69670231/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69670231",
+      "relations": [],
+      "employer": {
+        "id": "1060821",
+        "name": "Рост Развитие Решение",
+        "url": "https://api.hh.ru/employers/1060821",
+        "alternate_url": "https://hh.ru/employer/1060821",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/874868.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/874869.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/85446.jpg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1060821",
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "опыт работы в личных продажах не менее 2-х лет. - результативность в работе, высокая коммуникабельность. - желание развиваться и зарабатывать. - ",
+        "responsibility": "Привлечение новых клиентов, ведение переговоров, встречи с потенциальными клиентами, работа с возражениями. - Активные личные продажи, выстраивание долгосрочных взаимовыгодных отношений. - "
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "fullDay",
+        "name": "Полный день"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false
+    },
+    {
+      "id": "69662166",
+      "premium": false,
+      "name": "Фронтенд-разработчик в Яндекс (Буткемп)",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "113",
+        "name": "Россия",
+        "url": "https://api.hh.ru/areas/113"
+      },
+      "salary": null,
+      "type": {
+        "id": "direct",
+        "name": "Рекламная"
+      },
+      "address": null,
+      "response_url": "https://is.gd/aNsyu0",
+      "sort_point_distance": null,
+      "published_at": "2022-09-09T14:01:49+0300",
+      "created_at": "2022-09-09T14:01:49+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69662166",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/69662166?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69662166/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69662166",
+      "relations": [],
+      "employer": {
+        "id": "1740",
+        "name": "Яндекс",
+        "url": "https://api.hh.ru/employers/1740",
+        "alternate_url": "https://hh.ru/employer/1740",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/3790847.png",
+          "240": "https://hhcdn.ru/employer-logo/3790848.png",
+          "original": "https://hhcdn.ru/employer-logo-original/837491.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1740",
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Опыт коммерческой разработки на JavaScript/TypeScript от 3-х лет.",
+        "responsibility": null
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "fullDay",
+        "name": "Полный день"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false
+    },
+    {
+      "id": "69808001",
+      "premium": false,
+      "name": "Инспектор по взысканию долгов",
       "department": null,
       "has_test": false,
       "response_letter_required": true,
@@ -566,8 +541,275 @@
         "url": "https://api.hh.ru/areas/160"
       },
       "salary": {
-        "from": 600000,
-        "to": 900000,
+        "from": 150000,
+        "to": null,
+        "currency": "KZT",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2022-09-14T13:29:27+0300",
+      "created_at": "2022-09-14T13:29:27+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69808001",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/69808001?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69808001/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69808001",
+      "relations": [],
+      "employer": {
+        "id": "43830",
+        "name": "Бюро по работе с должниками",
+        "url": "https://api.hh.ru/employers/43830",
+        "alternate_url": "https://hh.ru/employer/43830",
+        "logo_urls": null,
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=43830",
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Пунктуальность. Стрессоустойчивость, коммуникабельность.",
+        "responsibility": "работа в офисе. Своевременно проводить мероприятия, направленные на погашение задолженности (обзвон, переговоры, работа в специализированной программе). Выполнение установленных планов."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "fullDay",
+        "name": "Полный день"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false
+    },
+    {
+      "id": "69429316",
+      "premium": false,
+      "name": "Менеджер по продажам",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 70000,
+        "to": 250000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2022-09-02T17:47:51+0300",
+      "created_at": "2022-09-02T17:47:51+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69429316",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/69429316?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69429316/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69429316",
+      "relations": [],
+      "employer": {
+        "id": "1551312",
+        "name": "UP business",
+        "url": "https://api.hh.ru/employers/1551312",
+        "alternate_url": "https://hh.ru/employer/1551312",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/2981572.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/2981573.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/635105.jpg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1551312",
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Опыт работы в сфере активных B2B-продаж от 1-го года. Опыт работы в сфере продаж B2...",
+        "responsibility": "Активный поиск и привлечение клиентов. Исходящие звонки клиентам. Работа со входящими заявками и текущими клиентами. Составление КП и проведение презентаций. "
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "fullDay",
+        "name": "Полный день"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false
+    },
+    {
+      "id": "69591667",
+      "premium": false,
+      "name": "Менеджер продаж услуг физической охраны",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "3",
+        "name": "Екатеринбург",
+        "url": "https://api.hh.ru/areas/3"
+      },
+      "salary": {
+        "from": 50000,
+        "to": 80000,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Екатеринбург",
+        "street": "улица Горького",
+        "building": "65",
+        "description": null,
+        "lat": 56.829694,
+        "lng": 60.609215,
+        "raw": "Екатеринбург, улица Горького, 65",
+        "metro": {
+          "station_name": "Геологическая",
+          "line_name": "Север-Юг",
+          "station_id": "48.267",
+          "line_id": "48",
+          "lat": 56.826715,
+          "lng": 60.603754
+        },
+        "metro_stations": [
+          {
+            "station_name": "Геологическая",
+            "line_name": "Север-Юг",
+            "station_id": "48.267",
+            "line_id": "48",
+            "lat": 56.826715,
+            "lng": 60.603754
+          }
+        ],
+        "id": "2686872"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2022-09-07T18:13:49+0300",
+      "created_at": "2022-09-07T18:13:49+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69591667",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/69591667?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69591667/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69591667",
+      "relations": [],
+      "employer": {
+        "id": "4069351",
+        "name": "ГК Абсолютная Безопасность",
+        "url": "https://api.hh.ru/employers/4069351",
+        "alternate_url": "https://hh.ru/employer/4069351",
+        "logo_urls": {
+          "90": "https://hhcdn.ru/employer-logo/3307684.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/3307685.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/716642.jpg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4069351",
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "навыки активных продаж. - навыки общения с клиентами (юр. лица, средний и малый бизнес) как преимущество, но не являются обязательными. - ",
+        "responsibility": "Под охраной ГК «Абсолютная безопасность» находятся: промышленные предприятия и базы; финансовые учреждения; торгово-развлекательные объекты; государственные учреждения; строительные площадки; жилые..."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "fullDay",
+        "name": "Полный день"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false
+    },
+    {
+      "id": "69526362",
+      "premium": false,
+      "name": "Пекарь-ролщик",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1002",
+        "name": "Минск",
+        "url": "https://api.hh.ru/areas/1002"
+      },
+      "salary": {
+        "from": 1050,
+        "to": null,
+        "currency": "BYR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2022-09-06T12:09:17+0300",
+      "created_at": "2022-09-06T12:09:17+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69526362",
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/69526362?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69526362/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69526362",
+      "relations": [],
+      "employer": {
+        "id": "4390926",
+        "name": "ИСТЛАБКАФЕ",
+        "url": "https://api.hh.ru/employers/4390926",
+        "alternate_url": "https://hh.ru/employer/4390926",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/921137.jpg",
+          "90": "https://hhcdn.ru/employer-logo/4125120.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/4125121.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4390926",
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": null,
+        "responsibility": "Изготовление выпечки по технологии. Соблюдение чистоты и санитарных норм."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "shift",
+        "name": "Сменный график"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false
+    },
+    {
+      "id": "69406023",
+      "premium": false,
+      "name": "Помощник главного бухгалтера",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "160",
+        "name": "Алматы",
+        "url": "https://api.hh.ru/areas/160"
+      },
+      "salary": {
+        "from": 120000,
+        "to": 200000,
         "currency": "KZT",
         "gross": false
       },
@@ -577,43 +819,43 @@
       },
       "address": {
         "city": "Алматы",
-        "street": "улица Шевченко",
-        "building": "157Б",
+        "street": "улица Кенесары Хана",
+        "building": "54/8к2",
         "description": null,
-        "lat": 43.243442,
-        "lng": 76.900208,
-        "raw": "Алматы, улица Шевченко, 157Б",
+        "lat": 43.17087,
+        "lng": 76.870627,
+        "raw": "Алматы, улица Кенесары Хана, 54/8к2",
         "metro": null,
         "metro_stations": [],
-        "id": "341680"
+        "id": "4409307"
       },
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-14T08:04:03+0300",
-      "created_at": "2022-09-14T08:04:03+0300",
+      "published_at": "2022-09-02T10:50:51+0300",
+      "created_at": "2022-09-02T10:50:51+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=67100424",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69406023",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/67100424?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/67100424/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/67100424",
+      "url": "https://api.hh.ru/vacancies/69406023?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69406023/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69406023",
       "relations": [],
       "employer": {
-        "id": "40662",
-        "name": "Kolesa Group",
-        "url": "https://api.hh.ru/employers/40662",
-        "alternate_url": "https://hh.ru/employer/40662",
+        "id": "1478948",
+        "name": "Корпорация Gulfstream",
+        "url": "https://api.hh.ru/employers/1478948",
+        "alternate_url": "https://hh.ru/employer/1478948",
         "logo_urls": {
-          "240": "https://hhcdn.ru/employer-logo/2866369.png",
-          "90": "https://hhcdn.ru/employer-logo/2866368.png",
-          "original": "https://hhcdn.ru/employer-logo-original/606304.png"
+          "original": "https://hhcdn.ru/employer-logo-original/780531.png",
+          "240": "https://hhcdn.ru/employer-logo/3563016.png",
+          "90": "https://hhcdn.ru/employer-logo/3563015.png"
         },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=40662",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1478948",
         "trusted": true
       },
       "snippet": {
-        "requirement": "SQL. Python (знание R будет плюсом). Навыки применения аналитики для решения бизнес проблем. Опыт работы со стеком Google Cloud (наша...",
-        "responsibility": "Анализировать показатели сайтов и приложений для принятия продуктовых решений. Визуализировать данные, создавать отчеты и делать выводы. Контролировать внедрение новых продуктовых..."
+        "requirement": "Знание первичной бухгалтерской документации. Знание 1С. Опыт работы.",
+        "responsibility": "Ведение бухгалтерии торгового предприятия. Контроль всех первичных документов."
       },
       "contacts": null,
       "schedule": {
@@ -626,81 +868,9 @@
       "accept_temporary": false
     },
     {
-      "id": "69749682",
+      "id": "69908047",
       "premium": false,
-      "name": "Data Analyst (middle/senior)",
-      "department": null,
-      "has_test": false,
-      "response_letter_required": false,
-      "area": {
-        "id": "1",
-        "name": "Москва",
-        "url": "https://api.hh.ru/areas/1"
-      },
-      "salary": {
-        "from": 2500,
-        "to": 3500,
-        "currency": "USD",
-        "gross": false
-      },
-      "type": {
-        "id": "open",
-        "name": "Открытая"
-      },
-      "address": {
-        "city": "Санкт-Петербург",
-        "street": "1-я Советская улица",
-        "building": "6к2",
-        "description": null,
-        "lat": 59.931986,
-        "lng": 30.364009,
-        "raw": "Санкт-Петербург, 1-я Советская улица, 6к2",
-        "metro": null,
-        "metro_stations": [],
-        "id": "1668597"
-      },
-      "response_url": null,
-      "sort_point_distance": null,
-      "published_at": "2022-09-16T10:31:54+0300",
-      "created_at": "2022-09-16T10:31:54+0300",
-      "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69749682",
-      "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69749682?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69749682/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69749682",
-      "relations": [],
-      "employer": {
-        "id": "3463642",
-        "name": "Fundraise Up",
-        "url": "https://api.hh.ru/employers/3463642",
-        "alternate_url": "https://hh.ru/employer/3463642",
-        "logo_urls": {
-          "90": "https://hhcdn.ru/employer-logo/3261636.png",
-          "240": "https://hhcdn.ru/employer-logo/3261637.png",
-          "original": "https://hhcdn.ru/employer-logo-original/705130.png"
-        },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3463642",
-        "trusted": true
-      },
-      "snippet": {
-        "requirement": "Формальный список того, что нужно делать. Знания в области математической статистики и теории вероятностей. Знание Python (numpy, pandas, matplotlib, sklearn). ",
-        "responsibility": "Команда. В компании работает 100 человек. В офисе в Нью-Йорке маркетинг, продажи, онбординг и саппорт. Удаленно мы принимаем продуктовые..."
-      },
-      "contacts": null,
-      "schedule": {
-        "id": "remote",
-        "name": "Удаленная работа"
-      },
-      "working_days": [],
-      "working_time_intervals": [],
-      "working_time_modes": [],
-      "accept_temporary": false
-    },
-    {
-      "id": "69464620",
-      "premium": false,
-      "name": "Data Analyst (Middle/Senior)",
+      "name": "Менеджер по продажам и работе с клиентами",
       "department": null,
       "has_test": false,
       "response_letter_required": false,
@@ -722,31 +892,31 @@
       "address": null,
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-14T08:58:41+0300",
-      "created_at": "2022-09-14T08:58:41+0300",
+      "published_at": "2022-09-16T17:35:35+0300",
+      "created_at": "2022-09-16T17:35:35+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69464620",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69908047",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69464620?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69464620/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69464620",
+      "url": "https://api.hh.ru/vacancies/69908047?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69908047/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69908047",
       "relations": [],
       "employer": {
-        "id": "9056230",
-        "name": "Offer Now",
-        "url": "https://api.hh.ru/employers/9056230",
-        "alternate_url": "https://hh.ru/employer/9056230",
+        "id": "2489728",
+        "name": "Банкирро",
+        "url": "https://api.hh.ru/employers/2489728",
+        "alternate_url": "https://hh.ru/employer/2489728",
         "logo_urls": {
-          "90": "https://hhcdn.ru/employer-logo/5598060.png",
-          "240": "https://hhcdn.ru/employer-logo/5598061.png",
-          "original": "https://hhcdn.ru/employer-logo-original/994316.png"
+          "240": "https://hhcdn.ru/employer-logo/3424738.jpeg",
+          "90": "https://hhcdn.ru/employer-logo/3424737.jpeg",
+          "original": "https://hhcdn.ru/employer-logo-original/745944.jpg"
         },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9056230",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2489728",
         "trusted": true
       },
       "snippet": {
-        "requirement": "Опыт работы в качестве дата аналитика от 2 лет. Высшее математическое образование. Python уровня middle разработчика. Опыт написания Etl. ",
-        "responsibility": "Работа с большими данными. Прогноз и оптимизация основных показателей. Создание и поддержание интерактивных дашбордов, автоматизированных отчетов."
+        "requirement": "Продажи для тебя - это драйв, ты нацелен на результат, берешь на себя ответственность. Опыт в продажах от 1 года. ",
+        "responsibility": "Консультация клиентов по продукту. Заключение договоров. Передача клиентов в отдел юридического сопровождения. Оперативное решение всех возникающих вопросов с клиентами, координация..."
       },
       "contacts": null,
       "schedule": {
@@ -759,20 +929,20 @@
       "accept_temporary": false
     },
     {
-      "id": "67733444",
+      "id": "69624679",
       "premium": false,
-      "name": "Data Analyst (удаленно)",
+      "name": "Менеджер по продажам (аренда спецтехники для строительства) удаленно",
       "department": null,
-      "has_test": true,
+      "has_test": false,
       "response_letter_required": false,
       "area": {
-        "id": "1",
-        "name": "Москва",
-        "url": "https://api.hh.ru/areas/1"
+        "id": "24",
+        "name": "Волгоград",
+        "url": "https://api.hh.ru/areas/24"
       },
       "salary": {
-        "from": 140000,
-        "to": null,
+        "from": 50000,
+        "to": 200000,
         "currency": "RUR",
         "gross": false
       },
@@ -783,31 +953,31 @@
       "address": null,
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-14T13:25:08+0300",
-      "created_at": "2022-09-14T13:25:08+0300",
+      "published_at": "2022-09-08T14:39:58+0300",
+      "created_at": "2022-09-08T14:39:58+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=67733444",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69624679",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/67733444?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/67733444/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/67733444",
+      "url": "https://api.hh.ru/vacancies/69624679?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69624679/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69624679",
       "relations": [],
       "employer": {
-        "id": "723714",
-        "name": "ZennoLab",
-        "url": "https://api.hh.ru/employers/723714",
-        "alternate_url": "https://hh.ru/employer/723714",
+        "id": "992871",
+        "name": "b2bbasis",
+        "url": "https://api.hh.ru/employers/992871",
+        "alternate_url": "https://hh.ru/employer/992871",
         "logo_urls": {
-          "90": "https://hhcdn.ru/employer-logo/2750763.png",
-          "240": "https://hhcdn.ru/employer-logo/2750764.png",
-          "original": "https://hhcdn.ru/employer-logo-original/577373.png"
+          "original": "https://hhcdn.ru/employer-logo-original/495947.jpg",
+          "90": "https://hhcdn.ru/employer-logo/2425541.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/2425542.jpeg"
         },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=723714",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=992871",
         "trusted": true
       },
       "snippet": {
-        "requirement": "Высшее техническое образование обязательно: математическое или по специальностям машинное обучение и анализ данных. Опыт работы аналитиком данных от двух лет. ",
-        "responsibility": "Анализ больших объемов данных для выявления неочевидных зависимостей. Дизайн функций для скоринга проектов по статистическим показателям. Вычисление статистических показателей по..."
+        "requirement": "Грамотная речь и письмо. Опыт успешных продаж в B2B от 1 года. Нацеленность на результат. Коммуникабельность. ",
+        "responsibility": "Выполнение плана по звонкам, сделкам. Выход на ЛПР, ведение полного цикла сделки. Общение новыми клиентами по телефону, переговоры. "
       },
       "contacts": null,
       "schedule": {
@@ -820,107 +990,16 @@
       "accept_temporary": false
     },
     {
-      "id": "69500080",
-      "premium": true,
-      "name": "Senior Data Scientist в b2c направление",
-      "department": {
-        "id": "hh-1455-ds",
-        "name": "HeadHunter::Analytics/Data Science"
-      },
+      "id": "69286350",
+      "premium": false,
+      "name": "Менеджер по продажам стоматологических товаров B2B (элайнеры)",
+      "department": null,
       "has_test": false,
       "response_letter_required": false,
       "area": {
         "id": "1",
         "name": "Москва",
         "url": "https://api.hh.ru/areas/1"
-      },
-      "salary": {
-        "from": 350000,
-        "to": null,
-        "currency": "RUR",
-        "gross": true
-      },
-      "type": {
-        "id": "open",
-        "name": "Открытая"
-      },
-      "address": {
-        "city": "Москва",
-        "street": "улица Годовикова",
-        "building": "9с10",
-        "description": null,
-        "lat": 55.809343,
-        "lng": 37.628505,
-        "raw": "Москва, улица Годовикова, 9с10",
-        "metro": {
-          "station_name": "Алексеевская",
-          "line_name": "Калужско-Рижская",
-          "station_id": "6.8",
-          "line_id": "6",
-          "lat": 55.807794,
-          "lng": 37.638699
-        },
-        "metro_stations": [
-          {
-            "station_name": "Алексеевская",
-            "line_name": "Калужско-Рижская",
-            "station_id": "6.8",
-            "line_id": "6",
-            "lat": 55.807794,
-            "lng": 37.638699
-          }
-        ],
-        "id": "525394"
-      },
-      "response_url": null,
-      "sort_point_distance": null,
-      "published_at": "2022-09-14T13:17:59+0300",
-      "created_at": "2022-09-14T13:17:59+0300",
-      "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69500080",
-      "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69500080?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69500080/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69500080",
-      "relations": [],
-      "employer": {
-        "id": "1455",
-        "name": "HeadHunter",
-        "url": "https://api.hh.ru/employers/1455",
-        "alternate_url": "https://hh.ru/employer/1455",
-        "logo_urls": {
-          "original": "https://hhcdn.ru/employer-logo-original/907140.png",
-          "240": "https://hhcdn.ru/employer-logo/4069248.png",
-          "90": "https://hhcdn.ru/employer-logo/4069247.png"
-        },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1455",
-        "trusted": true
-      },
-      "snippet": {
-        "requirement": "Опыт реализации и применения моделей машинного обучения в продакшене. Понимание основных методов и алгоритмов Machine Learning. Уверенное владение Python (numpy...",
-        "responsibility": "Строим таксономию навыков для улучшения ранжирования поиска и рекомендаций и построения карьерных траекторий и образовательных треков. Считаем реальную стоимость кандидата..."
-      },
-      "contacts": null,
-      "schedule": {
-        "id": "flexible",
-        "name": "Гибкий график"
-      },
-      "working_days": [],
-      "working_time_intervals": [],
-      "working_time_modes": [],
-      "accept_temporary": false
-    },
-    {
-      "id": "69674055",
-      "premium": false,
-      "name": "Data Engineer",
-      "department": null,
-      "has_test": false,
-      "response_letter_required": false,
-      "area": {
-        "id": "2",
-        "name": "Санкт-Петербург",
-        "url": "https://api.hh.ru/areas/2"
       },
       "salary": {
         "from": 80000,
@@ -933,44 +1012,60 @@
         "name": "Открытая"
       },
       "address": {
-        "city": "Санкт-Петербург",
-        "street": "Московский район, Цветочная улица",
-        "building": "25А",
+        "city": "Москва",
+        "street": "Волоколамское шоссе",
+        "building": "73",
         "description": null,
-        "lat": 59.885769,
-        "lng": 30.329469,
-        "raw": "Санкт-Петербург, Московский район, Цветочная улица, 25А",
-        "metro": null,
-        "metro_stations": [],
-        "id": "68591"
+        "lat": 55.824309,
+        "lng": 37.429303,
+        "raw": "Москва, Волоколамское шоссе, 73",
+        "metro": {
+          "station_name": "Тушинская",
+          "line_name": "Таганско-Краснопресненская",
+          "station_id": "7.145",
+          "line_id": "7",
+          "lat": 55.825479,
+          "lng": 37.437024
+        },
+        "metro_stations": [
+          {
+            "station_name": "Тушинская",
+            "line_name": "Таганско-Краснопресненская",
+            "station_id": "7.145",
+            "line_id": "7",
+            "lat": 55.825479,
+            "lng": 37.437024
+          }
+        ],
+        "id": "357244"
       },
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-15T19:03:42+0300",
-      "created_at": "2022-09-15T19:03:42+0300",
+      "published_at": "2022-08-30T09:09:29+0300",
+      "created_at": "2022-08-30T09:09:29+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69674055",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69286350",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69674055?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69674055/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69674055",
+      "url": "https://api.hh.ru/vacancies/69286350?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69286350/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69286350",
       "relations": [],
       "employer": {
-        "id": "751957",
-        "name": "АКУТА",
-        "url": "https://api.hh.ru/employers/751957",
-        "alternate_url": "https://hh.ru/employer/751957",
+        "id": "1047016",
+        "name": "Стар Смайл",
+        "url": "https://api.hh.ru/employers/1047016",
+        "alternate_url": "https://hh.ru/employer/1047016",
         "logo_urls": {
-          "240": "https://hhcdn.ru/employer-logo/1852135.png",
-          "90": "https://hhcdn.ru/employer-logo/1852134.png",
-          "original": "https://hhcdn.ru/employer-logo-original/352467.png"
+          "original": "https://hhcdn.ru/employer-logo-original/88214.jpg",
+          "240": "https://hhcdn.ru/employer-logo/717108.jpeg",
+          "90": "https://hhcdn.ru/employer-logo/717107.jpeg"
         },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=751957",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1047016",
         "trusted": true
       },
       "snippet": {
-        "requirement": "Опыт работы с СУБД, отличное знание SQL. Хорошее знание Linux (RHEL/CentOS) - уровень опытного пользователя. Опыт работы в команде, желание...",
-        "responsibility": "Аналитика различных предметных областей, подготовка наборов данных на разнородных источниках. Помощь в подготовке документации."
+        "requirement": "Опыт работы в продажах не менее 1 года. Образование: высшее / неполное высшее. Уверенный пользователь ПК . Желание профессионально развиваться. ",
+        "responsibility": "Продажа продукции компании для докторов по существующей клиентской базе, рекламному трафику и привлечение новых клиентов. Выполнение поставленного плана. Ведение документооборота. "
       },
       "contacts": null,
       "schedule": {
@@ -983,68 +1078,12 @@
       "accept_temporary": false
     },
     {
-      "id": "69825729",
+      "id": "55415805",
       "premium": false,
-      "name": "Data аналитик (Big Data)",
-      "department": null,
-      "has_test": false,
-      "response_letter_required": false,
-      "area": {
-        "id": "1",
-        "name": "Москва",
-        "url": "https://api.hh.ru/areas/1"
-      },
-      "salary": null,
-      "type": {
-        "id": "open",
-        "name": "Открытая"
-      },
-      "address": null,
-      "response_url": null,
-      "sort_point_distance": null,
-      "published_at": "2022-09-14T21:22:18+0300",
-      "created_at": "2022-09-14T21:22:18+0300",
-      "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69825729",
-      "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69825729?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69825729/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69825729",
-      "relations": [],
-      "employer": {
-        "id": "1102601",
-        "name": "Группа Самолет",
-        "url": "https://api.hh.ru/employers/1102601",
-        "alternate_url": "https://hh.ru/employer/1102601",
-        "logo_urls": {
-          "240": "https://hhcdn.ru/employer-logo/3951720.png",
-          "90": "https://hhcdn.ru/employer-logo/3951719.png",
-          "original": "https://hhcdn.ru/employer-logo-original/877711.jpeg"
-        },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1102601",
-        "trusted": true
-      },
-      "snippet": {
-        "requirement": "Высшее образование, математика/ит/статистика. Опыт работы с БД от 1 года. Обязательное наличие практического опыта проведения систематического бизнес-анализа...",
-        "responsibility": "...эффективности работы компании, сокращению расходов или увеличению доходности продуктов Big <highlighttext>Data</highlighttext>. Написание логики формирования витрин, аналитических продуктов. Анализ новых источников..."
-      },
-      "contacts": null,
-      "schedule": {
-        "id": "remote",
-        "name": "Удаленная работа"
-      },
-      "working_days": [],
-      "working_time_intervals": [],
-      "working_time_modes": [],
-      "accept_temporary": false
-    },
-    {
-      "id": "67473425",
-      "premium": false,
-      "name": "Data-инженер/Hadoop разработчик (проект СберID)",
+      "name": "Менеджер по работе с клиентами",
       "department": {
-        "id": "3529-3529-prof",
-        "name": "Сбер для экспертов"
+        "id": "3529-3529-stat",
+        "name": "Сбер. Начало карьеры"
       },
       "has_test": false,
       "response_letter_required": false,
@@ -1054,8 +1093,8 @@
         "url": "https://api.hh.ru/areas/1"
       },
       "salary": {
-        "from": 300000,
-        "to": 400000,
+        "from": 98800,
+        "to": null,
         "currency": "RUR",
         "gross": true
       },
@@ -1066,14 +1105,14 @@
       "address": null,
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-13T13:50:54+0300",
-      "created_at": "2022-09-13T13:50:54+0300",
+      "published_at": "2022-09-07T13:55:11+0300",
+      "created_at": "2022-09-07T13:55:11+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=67473425",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=55415805",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/67473425?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/67473425/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/67473425",
+      "url": "https://api.hh.ru/vacancies/55415805?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/55415805/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/55415805",
       "relations": [],
       "employer": {
         "id": "3529",
@@ -1089,8 +1128,8 @@
         "trusted": true
       },
       "snippet": {
-        "requirement": "Что будешь делать: Опыт в направлении от 3х лет. Опыт работы hadoop. Сильные компетенции в области реляционных СУБД и...",
-        "responsibility": "Участвовать в создании BI-системы: сбор, трансформация и анализ данных. Настраивать дашборды и алерты по продуктовым метрикам. Проектировать и разрабатывать..."
+        "requirement": "Опыт работы консультантом или промоутером приветствуется.",
+        "responsibility": "Продавать банковские продукты и сервисы в мобильных офисах Сбера: торговых центрах, магазинах, гипермаркетах, аэропортах. Рассказывать клиентам о преимуществах сервисов Сбера..."
       },
       "contacts": null,
       "schedule": {
@@ -1103,81 +1142,9 @@
       "accept_temporary": false
     },
     {
-      "id": "69081304",
+      "id": "69253872",
       "premium": false,
-      "name": "Data Analyst",
-      "department": null,
-      "has_test": false,
-      "response_letter_required": false,
-      "area": {
-        "id": "78",
-        "name": "Самара",
-        "url": "https://api.hh.ru/areas/78"
-      },
-      "salary": {
-        "from": 100000,
-        "to": 150000,
-        "currency": "RUR",
-        "gross": false
-      },
-      "type": {
-        "id": "open",
-        "name": "Открытая"
-      },
-      "address": {
-        "city": "Самара",
-        "street": "5-я просека",
-        "building": "117",
-        "description": null,
-        "lat": 53.2409,
-        "lng": 50.18229,
-        "raw": "Самара, 5-я просека, 117",
-        "metro": null,
-        "metro_stations": [],
-        "id": "6999758"
-      },
-      "response_url": null,
-      "sort_point_distance": null,
-      "published_at": "2022-09-16T12:33:52+0300",
-      "created_at": "2022-09-16T12:33:52+0300",
-      "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69081304",
-      "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69081304?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69081304/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69081304",
-      "relations": [],
-      "employer": {
-        "id": "4808196",
-        "name": "Лидстех",
-        "url": "https://api.hh.ru/employers/4808196",
-        "alternate_url": "https://hh.ru/employer/4808196",
-        "logo_urls": {
-          "original": "https://hhcdn.ru/employer-logo-original/761404.jpg",
-          "90": "https://hhcdn.ru/employer-logo/3486573.jpeg",
-          "240": "https://hhcdn.ru/employer-logo/3486574.jpeg"
-        },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4808196",
-        "trusted": true
-      },
-      "snippet": {
-        "requirement": "Умеешь работать с системами визуализации данных (powerbi, datalens, <highlighttext>data</highlighttext> studio, tableau и подобных). У тебя есть понимание основных способов визуализаций...",
-        "responsibility": "Искать всевозможные взаимосвязи для определения синергии между продуктами. Определять тренды, создавать много дешбордов для управленческого контроля. Внесение предложений по улучшению..."
-      },
-      "contacts": null,
-      "schedule": {
-        "id": "flexible",
-        "name": "Гибкий график"
-      },
-      "working_days": [],
-      "working_time_intervals": [],
-      "working_time_modes": [],
-      "accept_temporary": false
-    },
-    {
-      "id": "69755883",
-      "premium": false,
-      "name": "Data Engineer DWH",
+      "name": "Продавец-консультант",
       "department": null,
       "has_test": false,
       "response_letter_required": false,
@@ -1186,55 +1153,76 @@
         "name": "Москва",
         "url": "https://api.hh.ru/areas/1"
       },
-      "salary": null,
+      "salary": {
+        "from": 60000,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": true
+      },
       "type": {
         "id": "open",
         "name": "Открытая"
       },
       "address": {
         "city": "Москва",
-        "street": "Рочдельская улица",
-        "building": "15с11-11А",
+        "street": "Павелецкая площадь",
+        "building": "3",
         "description": null,
-        "lat": 55.755728,
-        "lng": 37.564455,
-        "raw": "Москва, Рочдельская улица, 15с11-11А",
-        "metro": null,
-        "metro_stations": [],
-        "id": "6156816"
+        "lat": 55.731014,
+        "lng": 37.639958,
+        "raw": "Москва, Павелецкая площадь, 3",
+        "metro": {
+          "station_name": "Павелецкая",
+          "line_name": "Замоскворецкая",
+          "station_id": "2.101",
+          "line_id": "2",
+          "lat": 55.729741,
+          "lng": 37.638693
+        },
+        "metro_stations": [
+          {
+            "station_name": "Павелецкая",
+            "line_name": "Замоскворецкая",
+            "station_id": "2.101",
+            "line_id": "2",
+            "lat": 55.729741,
+            "lng": 37.638693
+          }
+        ],
+        "id": "10712028"
       },
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-16T11:59:57+0300",
-      "created_at": "2022-09-16T11:59:57+0300",
+      "published_at": "2022-09-16T11:16:28+0300",
+      "created_at": "2022-09-16T11:16:28+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69755883",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69253872",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69755883?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69755883/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69755883",
+      "url": "https://api.hh.ru/vacancies/69253872?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69253872/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69253872",
       "relations": [],
       "employer": {
-        "id": "5488399",
-        "name": "Самокат (ООО Умное пространство)",
-        "url": "https://api.hh.ru/employers/5488399",
-        "alternate_url": "https://hh.ru/employer/5488399",
+        "id": "1910225",
+        "name": "Aurum Queen",
+        "url": "https://api.hh.ru/employers/1910225",
+        "alternate_url": "https://hh.ru/employer/1910225",
         "logo_urls": {
-          "240": "https://hhcdn.ru/employer-logo/3944400.png",
-          "90": "https://hhcdn.ru/employer-logo/3944399.png",
-          "original": "https://hhcdn.ru/employer-logo-original/875881.png"
+          "original": "https://hhcdn.ru/employer-logo-original/709384.png",
+          "90": "https://hhcdn.ru/employer-logo/3278652.png",
+          "240": "https://hhcdn.ru/employer-logo/3278653.png"
         },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5488399",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1910225",
         "trusted": true
       },
       "snippet": {
-        "requirement": "Понимание архитектуры хранилищ данных и методологий проектирования(<highlighttext>Data</highlighttext> Vault). Знание Python. Знание SQL на высоком уровне и опыт оптимизации запросов...",
-        "responsibility": "Разработка хранилища данных на базе Greenplum. Построение ETL-процессов поставки данных с помощью DBT и Airflow. Расчет сложных аналитических показателей..."
+        "requirement": "Настойчивость, целеустремленность. Желание обучаться. Любовь к продажам. Желание много зарабатывать. Желание много и активно общаться. Умение найти общий язык с...",
+        "responsibility": "Консультирование покупателей. Помощь в подборе нужного товара. Демонстрация продуктов. Активные холодные продажи. Индивидуальные консультации по ассортименту и новинкам."
       },
       "contacts": null,
       "schedule": {
-        "id": "remote",
-        "name": "Удаленная работа"
+        "id": "fullDay",
+        "name": "Полный день"
       },
       "working_days": [],
       "working_time_intervals": [],
@@ -1242,9 +1230,9 @@
       "accept_temporary": false
     },
     {
-      "id": "69868365",
+      "id": "69334180",
       "premium": false,
-      "name": "Data Analyst / Data Engineer (Junior/Junior+)",
+      "name": "Менеджер по работе с партнерами",
       "department": null,
       "has_test": false,
       "response_letter_required": false,
@@ -1253,35 +1241,55 @@
         "name": "Санкт-Петербург",
         "url": "https://api.hh.ru/areas/2"
       },
-      "salary": null,
+      "salary": {
+        "from": 60000,
+        "to": 100000,
+        "currency": "RUR",
+        "gross": true
+      },
       "type": {
         "id": "open",
         "name": "Открытая"
       },
-      "address": null,
+      "address": {
+        "city": "Санкт-Петербург",
+        "street": "Центральный район, улица Некрасова",
+        "building": "40",
+        "description": null,
+        "lat": 59.938883,
+        "lng": 30.361395,
+        "raw": "Санкт-Петербург, Центральный район, улица Некрасова, 40",
+        "metro": null,
+        "metro_stations": [],
+        "id": "5384039"
+      },
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-15T17:23:38+0300",
-      "created_at": "2022-09-15T17:23:38+0300",
+      "published_at": "2022-09-18T11:37:47+0300",
+      "created_at": "2022-09-18T11:37:47+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69868365",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69334180",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69868365?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69868365/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69868365",
+      "url": "https://api.hh.ru/vacancies/69334180?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69334180/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69334180",
       "relations": [],
       "employer": {
-        "id": "201",
-        "name": "Kept (Кэпт)",
-        "url": "https://api.hh.ru/employers/201",
-        "alternate_url": "https://hh.ru/employer/201",
-        "logo_urls": null,
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=201",
+        "id": "1910225",
+        "name": "Aurum Queen",
+        "url": "https://api.hh.ru/employers/1910225",
+        "alternate_url": "https://hh.ru/employer/1910225",
+        "logo_urls": {
+          "original": "https://hhcdn.ru/employer-logo-original/709384.png",
+          "90": "https://hhcdn.ru/employer-logo/3278652.png",
+          "240": "https://hhcdn.ru/employer-logo/3278653.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1910225",
         "trusted": true
       },
       "snippet": {
-        "requirement": "Высшее образование, математическое или ИТ. Опыт разработки на Python. Знание библиотек Pandas, Numpy. Знание библиотек: GraphViz, Openpyxl, Tkinter. ",
-        "responsibility": "...новой логики работы с данными на проектах практики Цифровые финансы (<highlighttext>data</highlighttext>-driven approach). Участие в интересных проектах для крупнейших компаний. "
+        "requirement": "Сотрудничество с успешными компаниями в сфере красоты и здоровья, блогерами.",
+        "responsibility": "Работа B2B с партнёрами по всей стране . Создание новых партнеров. Консультирование покупателей по ассортименту и новинкам компании. "
       },
       "contacts": null,
       "schedule": {
@@ -1294,58 +1302,66 @@
       "accept_temporary": false
     },
     {
-      "id": "69813270",
+      "id": "69345423",
       "premium": false,
-      "name": "Data master",
-      "department": {
-        "id": "1947314-1947314-ancor",
-        "name": "ANCOR"
-      },
-      "has_test": false,
+      "name": "Менеджер по привлечению и развитию клиентов в международная логистике, ВЭД",
+      "department": null,
+      "has_test": true,
       "response_letter_required": false,
       "area": {
-        "id": "67",
-        "name": "Великий Новгород",
-        "url": "https://api.hh.ru/areas/67"
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
       },
       "salary": {
-        "from": 120000,
-        "to": null,
+        "from": 130000,
+        "to": 170000,
         "currency": "RUR",
-        "gross": true
+        "gross": false
       },
       "type": {
         "id": "open",
         "name": "Открытая"
       },
-      "address": null,
+      "address": {
+        "city": "Москва",
+        "street": "2-я Хуторская улица",
+        "building": "38Ас1",
+        "description": null,
+        "lat": 55.805279896,
+        "lng": 37.5681912282,
+        "raw": "Москва, 2-я Хуторская улица, 38Ас1",
+        "metro": null,
+        "metro_stations": [],
+        "id": "875174"
+      },
       "response_url": null,
       "sort_point_distance": null,
-      "published_at": "2022-09-14T15:01:51+0300",
-      "created_at": "2022-09-14T15:01:51+0300",
+      "published_at": "2022-08-31T14:57:06+0300",
+      "created_at": "2022-08-31T14:57:06+0300",
       "archived": false,
-      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69813270",
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=69345423",
       "insider_interview": null,
-      "url": "https://api.hh.ru/vacancies/69813270?host=hh.ru",
-      "adv_response_url": "https://api.hh.ru/vacancies/69813270/adv_response?host=hh.ru",
-      "alternate_url": "https://hh.ru/vacancy/69813270",
+      "url": "https://api.hh.ru/vacancies/69345423?host=hh.ru",
+      "adv_response_url": "https://api.hh.ru/vacancies/69345423/adv_response?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/69345423",
       "relations": [],
       "employer": {
-        "id": "1947314",
-        "name": "ANCOR",
-        "url": "https://api.hh.ru/employers/1947314",
-        "alternate_url": "https://hh.ru/employer/1947314",
+        "id": "2271448",
+        "name": "ПКС-ТРАНС",
+        "url": "https://api.hh.ru/employers/2271448",
+        "alternate_url": "https://hh.ru/employer/2271448",
         "logo_urls": {
-          "original": "https://hhcdn.ru/employer-logo-original/785003.png",
-          "240": "https://hhcdn.ru/employer-logo/3580904.png",
-          "90": "https://hhcdn.ru/employer-logo/3580903.png"
+          "original": "https://hhcdn.ru/employer-logo-original/327077.jpg",
+          "90": "https://hhcdn.ru/employer-logo/1750658.jpeg",
+          "240": "https://hhcdn.ru/employer-logo/1750659.jpeg"
         },
-        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1947314",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2271448",
         "trusted": true
       },
       "snippet": {
-        "requirement": "Знание SQL (начальный уровень). Знание Power BI (DAX - начальный уровень). Excel - продвинутый пользователь (Power Query).",
-        "responsibility": "Сбор, систематизация и обработка данных из различных источников компании: Excel, Базы данных. Разработка Power BI отчетов по запросу внутренних служб. "
+        "requirement": "Полное среднее или более высокое образование. Умение налаживать долгосрочные, доверительные, партнёрские отношения. Грамотно поставленная письменная и устная речь. ",
+        "responsibility": "С необходимостью обслуживания наших новых производственных филиалов. Развитием новых сервисов, внутри компании. С потребностью вырастить кадры для управления подразделениями компании. "
       },
       "contacts": null,
       "schedule": {
@@ -1355,14 +1371,14 @@
       "working_days": [],
       "working_time_intervals": [],
       "working_time_modes": [],
-      "accept_temporary": false
+      "accept_temporary": true
     }
   ],
-  "found": 5849,
+  "found": 968652,
   "pages": 100,
   "per_page": 20,
   "page": 0,
   "clusters": null,
   "arguments": null,
-  "alternate_url": "https://hh.ru/search/vacancy?control_flag=vacancyBlacklistJoinEnabled%3ATrue&enable_snippets=true&text=data"
+  "alternate_url": "https://hh.ru/search/vacancy?control_flag=vacancyBlacklistJoinEnabled%3ATrue&enable_snippets=true"
 }
