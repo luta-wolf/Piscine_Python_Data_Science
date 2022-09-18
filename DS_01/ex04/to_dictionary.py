@@ -36,13 +36,25 @@ def dataset():
 # 		print(f"\'{key}\' : \'{value}\'")
 
 def to_dictionary():
-	my_dict = dict(dataset())
-	for key,value in my_dict.items():
-		print(f"\'{value}\' : \'{key}\'")
+	data = dataset()
+	my_dict = {}
 
+	for i in data:
+		if i[1] in my_dict:
+			my_dict[i[1]].append(i[0])
+		else:
+			my_dict[i[1]] = [i[0]]
+	return my_dict
+
+
+def print_dict(my_dict):
+	for key, value in my_dict.items():
+		for amount in value:
+			print(f"\'{key}\' : \'{amount}\'")
 
 def name():
-	to_dictionary()
+	value = to_dictionary()
+	print_dict(value)
 
 
 if __name__ == "__main__":
