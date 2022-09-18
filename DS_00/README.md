@@ -1,4 +1,8 @@
 ### ex00
+Чтобы работала JQ подключаем в ENV home brew, которую мы установли в папку goinfre
+```
+eval "$(~/goinfre/homebrew/bin/brew shellenv)"
+```
 Запускаем hh.sh с параметром "data scientist" для нашего задания и любой профессией для парсинга остального
 ```
 sh hh.sh "data scientist"
