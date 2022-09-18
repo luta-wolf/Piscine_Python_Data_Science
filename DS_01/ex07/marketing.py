@@ -22,7 +22,7 @@ def dataset():
 def marketing(argv):
 	clients, participants, recipients = dataset()
 	if argv == "call_center":
-		return  list(clients - recipients)
+		return  list((clients | participants) - recipients)
 	elif argv == "potential_clients":
 		return list(participants  - clients)
 	elif argv == "loyalty_program":
