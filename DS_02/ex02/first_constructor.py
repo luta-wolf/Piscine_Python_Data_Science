@@ -29,7 +29,7 @@ if __name__ == "__main__":
 		research = Research(sys.argv[1])
 		print(research.file_reader())
 	else:
-		raise ValueError("Wronn number agruments")
+		raise ValueError("Wrong number agruments")
 
 
 
