@@ -4,10 +4,10 @@ from random import randint
 class Research:
     def __init__(self, path):
         self.path = path
-
     def file_reader(self):
         has_header = True
         text = self.check_file(has_header)
+        print(1)
         return text
 
     def check_file(self, has_header):
@@ -23,7 +23,7 @@ class Research:
         if has_header:
             mod_lines = lines[1:]
         else:
-            mod_lines = lines
+             mod_lines = lines
         for line in mod_lines:
             if line != "0,1" and line != "1,0":
                 raise ValueError("Data in the file is incorrect")
@@ -76,7 +76,6 @@ if __name__ == '__main__':
     print(calc[0], calc[1])
     frac = inner.fractions(calc[0], calc[1])
     print(frac[0], frac[1])
-
     inherited = outter.Analytics(outter.file_reader())
     rand_nums = inherited.predict_random(3)
     print(rand_nums)
