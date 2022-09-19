@@ -32,7 +32,7 @@ class Research:
 			strs = line.split(',')
 			numbers = []
 			for number in strs:
-				numbers.append(number)
+				numbers.append(int(number))
 			res.append(list(numbers))
 		return res
 
@@ -40,7 +40,7 @@ class Research:
 		def counts(self, data):
 			eagle = 0
 			for line in data:
-				if line[0] == '1':
+				if line[0] == 1:
 					eagle += 1
 			tail = len(data) - eagle
 			return eagle, tail
