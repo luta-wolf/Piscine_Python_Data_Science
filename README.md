@@ -32,8 +32,10 @@
 Резюме: Сегодня мы поможем вам получить базовые знания о том, как управлять библиотеками в Python и работать с виртуальными средами (virtual environment `venv`).
 1) Установка [venv](https://pythonchik.ru/okruzhenie-i-pakety/virtualnoe-okruzhenie-python-venv)
 -	`python3.10 -m venv venv` - установка
--  `. venv/bin/activate` - запуск
+-  `. venv/bin/activate` - запускаем так
+-  `source venv/bin/activate` - или так
 -  `pip install --upgrade pip` - oбновляем pip
 -  `deactivate` - и выход из окружения
-2) Установка библиотеки [termgraph](https://github.com/mkaz/termgraph)
+1) Установка библиотеки [termgraph](https://github.com/mkaz/termgraph)
 - `python3 -m pip install termgraph`
+

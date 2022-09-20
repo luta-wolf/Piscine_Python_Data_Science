@@ -1,7 +1,7 @@
 class Research:
 	def file_reader(self):
-		infile = open("data.csv", "r")
-		return infile.read()
+		with open("data.csv", "r") as infile:
+			return infile.read()
 
 def main():
 	researcher = Research()
