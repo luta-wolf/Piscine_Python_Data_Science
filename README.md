@@ -36,6 +36,6 @@
 -  `source venv/bin/activate` - или так
 -  `pip install --upgrade pip` - oбновляем pip
 -  `deactivate` - и выход из окружения
-1) Установка библиотеки [termgraph](https://github.com/mkaz/termgraph)
-- `python3 -m pip install termgraph`
+2) Установка библиотеки [termgraph](https://github.com/mkaz/termgraph)
+- `pip install termgraph`
 

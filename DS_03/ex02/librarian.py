@@ -1,7 +1,7 @@
+#!python3
 import os
 
-
-if __name__ == '__main__':
+def main():
 	print(os.environ['VIRTUAL_ENV'])
 	try:
 		if not os.environ['VIRTUAL_ENV'].endswith('einterdi'):
@@ -9,5 +9,8 @@ if __name__ == '__main__':
 	except Exception as ex:
 		print(ex)
 	else:
-		os.system('pip install beautifulsoup4 PyTest')
-		os.system('pip freeze > requirements.txt')
+		os.system('pip install beautifulsoup4 PyTest requests > /dev/null')
+		os.system('pip freeze; pip freeze > requirements.txt')
+
+if __name__ == '__main__':
+	main()
