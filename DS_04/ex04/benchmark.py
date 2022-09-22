@@ -15,13 +15,6 @@ def my_counter(lst):
 def last_ten(lst):
     return sorted(my_counter(lst).items(), key=(lambda x: -x[1]))[:10]
 
-def repets(ch):
-    s = 0
-    a = [i for i in range(1, int(ch) + 1)]
-    for i in a:
-        s += i**2
-    return s
-
 def main():
     lis = [randint(0, 100) for x in range(1000000)]
     print('my function: ', timeit.timeit(f'my_counter({lis})', setup='from __main__ import my_counter', number=1))
@@ -31,3 +24,4 @@ def main():
 
 if __name__ == '__main__':
         main()
+
