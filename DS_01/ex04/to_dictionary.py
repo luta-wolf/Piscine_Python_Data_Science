@@ -51,10 +51,12 @@ def print_dict(my_dict):
 	for key, value in my_dict.items():
 		for amount in value:
 			print(f"\'{key}\' : \'{amount}\'")
+	print(my_dict)
 
 def name():
 	value = to_dictionary()
 	print_dict(value)
+
 
 
 if __name__ == "__main__":
