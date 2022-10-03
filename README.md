@@ -12,13 +12,13 @@
 - API hh.ru [часть 1](https://habr.com/ru/company/hh/blog/303168/), [часть 2](https://github.com/hhru/api/blob/master/README.md#%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B) и  [часть 3](https://github.com/hhru/api/blob/master/docs/general.md)
 - Linux инструмент [JQ](https://russianblogs.com/article/9830458316/)
 
-### Начало работы
+#### Начало работы
 Чтобы работала JQ подключаем в ENV home brew, которую мы установли в папку goinfre
 ```
 eval "$(~/goinfre/homebrew/bin/brew shellenv)"
 ```
 
-Запускаем hh.sh с параметром "data scientist" для нашего задания и любой профессией для парсинга остального
+Запускаем hh.sh с параметром `data scientist` для нашего задания и любой профессией для парсинга остального
 ```
 sh hh.sh "data scientist"
 ```
