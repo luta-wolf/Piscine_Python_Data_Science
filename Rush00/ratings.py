@@ -6,6 +6,7 @@ class Ratings:
 		"""
 		Put here any fields that you think you will need.
 		"""
+		self.path_to_the_file = path_to_the_file
 	class Movies:
 		def dist_by_year(self):
 			"""
@@ -42,7 +43,7 @@ class Ratings:
 			"""
 			The method returns top-n movies by the variance of the ratings.
 			It is a dict where the keys are movie titles and the values are the variances.
-		Sort it by variance descendingly.
+			Sort it by variance descendingly.
 			The values should be rounded to 2 decimals.
 			"""
 			pass

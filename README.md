@@ -32,3 +32,9 @@
 Резюме: Сегодня мы поможем вам получить базовые знания о том, как управлять библиотеками в Python и работать с виртуальными средами (virtual environment [`venv`](https://github.com/luta-wolf/Piscine_Python_Data_Science/tree/main/DS_03)).
 
 
+## Rush 01
+### Продовольствие и питание
+Резюме: Этот раш поможет вам укрепить навыки, полученные в предыдущие дни.
+Датасет epi_r.csv скачать [здесь](https://drive.google.com/file/d/1hzmxNBrY7-9mv5EpqAvhVUiJahfrcYUN/view)
+
+

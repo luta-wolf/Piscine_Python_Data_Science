@@ -28,7 +28,6 @@ class SimilarRecipes:
             print('Error: {}'.format(e))
             return None
         soup = BeautifulSoup(response.text, "html.parser")
-        # soup = BeautifulSoup(response.text, "lxml.parser")
         name = soup.find_all(class_ = "hed")
         rating = soup.find_all(class_ = 'recipes-ratings-summary')
         if name and rating:

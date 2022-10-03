@@ -6,13 +6,12 @@ class Links:
         """
         Put here any fields that you think you will need.
         """
-
     def get_imdb(list_of_movies, list_of_fields):
         """
-The method returns a list of lists [movieId, field1, field2, field3, ...] for the list of movies given as the argument (movieId).
+        The method returns a list of lists [movieId, field1, field2, field3, ...] for the list of movies given as the argument (movieId).
         For example, [movieId, Director, Budget, Cumulative Worldwide Gross, Runtime].
         The values should be parsed from the IMDB webpages of the movies.
-     Sort it by movieId descendingly.
+         Sort it by movieId descendingly.
         """
         return imdb_info
 
