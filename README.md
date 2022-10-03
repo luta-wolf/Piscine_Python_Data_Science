@@ -18,7 +18,7 @@
 eval "$(~/goinfre/homebrew/bin/brew shellenv)"
 ```
 
-Запускаем hh.sh с параметром `"data scientist"` для нашего задания и любой профессией для парсинга остального
+Запускаем hh.sh с параметром "data scientist" для нашего задания и любой профессией для парсинга остального
 ```
 sh hh.sh "data scientist"
 ```
