@@ -36,6 +36,7 @@ def parse(ticker, table):
 	url = f'https://finance.yahoo.com/quote/{ticker}/financials?p={ticker}'
 	try:
 		response = requests.get(url,  headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'})
+		# response = requests.get(str, headers={'User-Agent': 'Custom'})
 	except requests.exceptions.ConnectionError as e:
 		print('Error: {}'.format(e))
 		return None

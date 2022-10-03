@@ -8,7 +8,7 @@ eval "$(~/goinfre/homebrew/bin/brew shellenv)"
 ```
 sh hh.sh "data scientist"
 ```
-Получаем грязные данные, которые складываем в json файл.
+Сырые данне складываем в JSON файл и затем преобразовываем его в CSV файл, сортируем, заменяем строки и разделяем/объединяем по файлам.
 ### ex01
 Фильтруем данные по параметрам:
 **id	created_at	name	has_test	alternate_url**
