@@ -1,68 +1,82 @@
-import sys
 import os
+import sys
+
 
 class Research:
-	def __init__(self, filename: str) -> None:
-		self.filename = filename
+    def __init__(self, file_path):
+        self.file_path = file_path
 
-	def file_reader(self):
-		has_header = True
-		line = self.check_file(has_header)
-		return line
+    def file_reader(self, has_header=True):
+        if self.path_checker():
+            with open(self.file_path, "r") as in_file:
+                content = in_file.read()
+                lines = content.split('\n')
+                if len(lines) < 1:
+                    raise ValueError("Error: The file is empty")
+                if lines[0] == '0,1' or lines[0] == '1,0':
+                    has_header = False
 
-	def check_file(self, has_header) -> bool:
-		if not os.access(self.filename, os.R_OK):
-			raise ValueError("File can't be read")
-		with open(self.filename, 'r') as infile:
-			lines = [line.rstrip() for line in infile]
-		if len(lines) < 1:
-			raise ValueError("Few lines in file")
-		if lines[0] == "0,1" or lines[0] == "1,0":
-			has_header = False
-		mod_lines = []
-		if has_header:
-			mod_lines = lines[1:]
-		else:
-			mod_lines = lines
-		for line in mod_lines:
-			if line != "0,1" and line != "1,0":
-				raise ValueError("Data in the file is incorrect")
-		res = []
-		for line in mod_lines:
-			strs = line.split(',')
-			numbers = []
-			for number in strs:
-				numbers.append(int(number))
-			res.append(list(numbers))
-		return res
+                if has_header and len(lines) < 2:
+                    raise ValueError("Error: The file with header has no enough lines")
+                if has_header and len(lines[0].split(',')) != 2:
+                    raise ValueError("Error: The file has a different structure in header")
+                if has_header:
+                    content_lines = lines[1:]
+                else:
+                    content_lines = lines
+                for line in content_lines:
+                    if line != '0,1' and line != '1,0':
+                        raise ValueError("Error: Incorrect file structure in content")
+                content_list = [[int(value) for value in line.split(',')] for line in content_lines]
 
-	class Calculations:
-		def counts(self, data):
-			eagle = 0
-			for line in data:
-				if line[0] == 1:
-					eagle += 1
-			tail = len(data) - eagle
-			return eagle, tail
+                return content_list
 
-		def fractions(self, eagle, tail):
-			perсent_eagles = eagle / (eagle + tail) * 100
-			perсent_tails = tail / (eagle + tail) * 100
-			return perсent_eagles, perсent_tails
+    def path_checker(self):
+        if not os.path.exists(self.file_path):
+            raise OSError("Error: File not found")
+        if not os.path.isfile(self.file_path):
+            raise OSError("Error: The specified path is not a file")
+        if not self.file_path.endswith('.csv'):
+            raise OSError("Error: Incorrect file extension")
+        if not os.access(self.file_path, os.R_OK):
+            raise OSError("Error: Can't read file")
+        return True
 
+    class Calculations:
+        def counts(data):
+            heads = 0
+            tails = 0
+            for elem in data:
+                heads += elem[0]
+                tails += elem[1]
+            result = [heads, tails]
+            return result
 
-def main(filename: str):
-	research = Research(filename)
-	print(research.file_reader())
-	calc = research.Calculations()
-	amount = calc.counts(research.file_reader())
-	print(amount[0], amount[1])
-	perсent = calc.fractions(amount[0], amount[1])
-	print(perсent[0], perсent[1])
+        def fractions(counts):
+            sum_all = counts[0] + counts[1]
+            result = [(counts[0] / sum_all) * 100, (counts[1] / sum_all) * 100]
+            return result
 
 
-if __name__ == "__main__":
-	if len(sys.argv) == 2:
-		main(sys.argv[1])
-	else:
-		raise ValueError("Wrong number agruments")
+def error(path, message):
+    print("{0}: {1} ".format(path, message))
+    sys.exit(1)
+
+
+def main(file_path):
+    try:
+        research = Research(file_path)
+        list_data = research.file_reader()
+        print(list_data)
+        counts = research.Calculations.counts(list_data)
+        fractions = research.Calculations.fractions(counts)
+        print(counts[0], counts[1])
+        print(fractions[0], fractions[1])
+    except (IOError, OSError, ValueError) as e:
+        print(e)
+
+
+if __name__ == '__main__':
+    if len(sys.argv) != 2:
+        error("Error", "Incorrect number of arguments entered")
+    main(sys.argv[1])

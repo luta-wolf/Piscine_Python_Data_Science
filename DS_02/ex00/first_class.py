@@ -1,9 +1,10 @@
 class Must_read:
-	infile = open("data.csv", "r")
-	line = infile.read()
-	print(line)
-	infile.close()
+    try:
+        with open("data.csv", "r") as in_file:
+            print(in_file.read())
+    except IOError as e:
+        print(e)
 
 
-if __name__ == "__main__":
-	pass
+if __name__ == '__main__':
+    Must_read()

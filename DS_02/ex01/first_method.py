@@ -1,11 +1,12 @@
 class Research:
-	def file_reader(self):
-		with open("data.csv", "r") as infile:
-			return infile.read()
+    @staticmethod
+    def file_reader() -> str:
+        with open("data.csv", "r") as in_file:
+            return in_file.read()
 
-def main():
-	researcher = Research()
-	print(researcher.file_reader())
 
-if __name__ == "__main__":
-	main()
+if __name__ == '__main__':
+    try:
+        print(Research.file_reader())
+    except IOError as e:
+        print(e)
