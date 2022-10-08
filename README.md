@@ -85,13 +85,25 @@ sh hh.sh "data scientist"
 ### Pandas: работа с фреймами данных
 Резюме: сегодня мы поможем вам приобрести навыки с Pandas.
 
+- Подборка статей о работе с библиотеками для [анализа данных](https://dfedorov.spb.ru/pandas/) на языке Python
+- Обзор [типов данных](https://dfedorov.spb.ru/pandas/%D0%9E%D0%B1%D0%B7%D0%BE%D1%80%20%D1%82%D0%B8%D0%BF%D0%BE%D0%B2%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20pandas.html) Pandas
+- еще о [Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/general_functions.html)
+
+
 ## Day 06
 ### Pandas: SQL and Pandas
 Резюме: сегодня мы поможем вам приобрести навыки работы с SQL
+- Методы объекта Connection [SQLite3](https://docs-python.ru/standart-library/modul-sqlite3-python/obekt-connection-modulja-sqlite3/).
+- [strftime](https://oracleplsql.ru/strftime-sqlite.html) функция SQLite
+
 
 ## Day 07
 ### Pandas, SQL и визуализация данных
 Резюме: Сегодня мы поможем вам с визуализацией данных в Matplotlib, Seaborn и Plotly.
+
+- [Цвета](https://datascientyst.com/full-list-named-colors-pandas-python-matplotlib/) в Pandas
+- - An Overview of Pandas [GroupBy](https://ds100.org/fa18/assets/lectures/lec03/03-groupby-and-pivot-basics.html)
+- pandas.[DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html#pandas.DataFrame.plothttps://kanoki.org/2019/09/16/dataframe-visualization-with-pandas-plot/).plot
 
 ## Day 08
 ### Введение в машинное обучение
@@ -104,6 +116,8 @@ sh hh.sh "data scientist"
 ## Rush 00
 ### Аналитика MovieLens
 Резюме: Этот раш поможет вам укрепить навыки, полученные в предыдущие дни.
+- Класс [OrderedDict](https://docs-python.ru/standart-library/modul-collections-python/klass-ordereddict-modulja-collections/) модуля collections в Python.
+-
 
 
 ## Rush 01
