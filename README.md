@@ -36,6 +36,8 @@ sh hh.sh "data scientist"
 ### Введение в Python: навыки ООП
 
 Резюме: сегодня мы поможем вам получить базовые знания об ООП-подходе в Python.
+- работа с [json](https://www.awesomeandrew.ru/2019/03/31/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8-%D0%B2-%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B5-json-%D0%B2-python/)
+- работа с [Requests](https://python-scripts.com/requests)
 
 ## Day 03
 ### Введение в Python: управление пакетами и виртуальная среда
@@ -57,6 +59,14 @@ sh hh.sh "data scientist"
 - `pip install pytest`          [PyTest](https://habr.com/ru/post/448782/)
 - `pip install requests`        [requests](https://pypi.org/project/requests/) + [еще](https://realpython.com/python-requests/)
 
+3) Полезное:
+- [Termgraph](https://xakep.ru/2018/09/14/www-termgraph/) — консольная утилита для рисования графиков
+- Модуль [BeautifulSoup4](https://docs-python.ru/packages/paket-beautifulsoup4-python/) в Python, разбор HTML
+- Профилирование и отладка Python, [инструменты](https://habr.com/ru/company/vk/blog/202832/)
+- PyTest [часть 1](https://habr.com/ru/post/269759/) и [часть 2](https://habr.com/ru/post/448782/)
+
+
+~
 ## Day 04
 ### Введение в Python: эффективные методы написания кода
 
