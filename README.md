@@ -66,11 +66,20 @@ sh hh.sh "data scientist"
 - PyTest [часть 1](https://habr.com/ru/post/269759/) и [часть 2](https://habr.com/ru/post/448782/)
 
 
-~
 ## Day 04
 ### Введение в Python: эффективные методы написания кода
 
 Резюме: Сегодня мы поможем вам написать код, который работает быстрее.
+
+- Руководство по использованию [list comprehension](https://pythonru.com/osnovy/python-list-comprehension)
+- Модуль [timeit](https://pythonim.ru/moduli/timeit-python) в Python
+- [Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
+- [Функциональное программирование](http://pythonicway.com/python-functinal-programming) в Python: lambda, zip, filter, map reduce
+- Основы [функционального программирования](https://habr.com/ru/post/555378/) на Python
+- Класс [Counter](https://docs-python.ru/standart-library/modul-collections-python/klass-counter-modulja-collections/) модуля collections в Python.
+- [Resource](https://docs.python.org/3/library/resource.html) usage information
+- [Генераторы](https://pythonist.ru/generatory-v-python/) в Python и их отличие от списков и функций
+
 
 ## Day 05
 ### Pandas: работа с фреймами данных
